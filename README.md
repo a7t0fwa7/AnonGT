@@ -26,8 +26,8 @@ ___
 
 ___
 
-> ### git clone https://github.com/gt0day/anongt
-> ### cd anongt && sudo bash install.sh
+> ### git clone https://github.com/gt0day/AnonGT
+> ### cd AnonGT && sudo bash install.sh
 > ### cd && sudo anongt
 
 ## Tested On
