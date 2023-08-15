@@ -26,7 +26,7 @@ ___
 
 ___
 
-> ### git clone https://github.com/gt0day/anongt
+> ### git clone https://github.com/gt0day/AnonGT
 > ### cd AnonGT && sudo bash install.sh
 > ### exit
 
