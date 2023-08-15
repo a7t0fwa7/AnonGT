@@ -1,7 +1,4 @@
-# AnonGT - Anonymous Ghost
-
-###### Redirect All Traffic Through Tor Network v1.0
-
+# AnonGT - Redirect All Traffic Through Tor Network v1.0
 ___
 
 ![AnonGT](anongt.png "AnonGT")
