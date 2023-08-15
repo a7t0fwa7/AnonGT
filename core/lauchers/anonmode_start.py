@@ -53,9 +53,6 @@ def anonmode_start():
     # clear logs
     log_killer()
 
-    # check tor
-    firefox()
-
     msg("all traffic is being redirected through tor")
 
     exec_command(f"touch {BACKUPDIR}/started")

@@ -1,7 +1,6 @@
 from core.config.config import *
 from core.config.libraries import *
 from core.assets.alerts import *
-from core.config.banner import logo
 
 
 # check root
@@ -99,6 +98,27 @@ def get_ip():
         msg(f"remote ip: {ip}")
     except:
         error("remote ip: unknown")
+
+
+# get anongt is-started
+def anongt_isactive():
+    if is_started() == 0:
+        return f"{red('AnonGT:')} {green('started')}"
+
+    else:
+        return f"{red('Anongt:')}  {yellow('stopped')}"
+
+
+# get tor service is-active
+def tor_isacttive():
+    cmd = ["systemctl", "is-active", "tor"]
+    TORSTATUS = get_process(cmd)
+
+    if TORSTATUS == "active":
+        return f"{red('TOR:')} {green(TORSTATUS)}"
+
+    else:
+        return f"{red('TOR:')} {yellow(TORSTATUS)}"
 
 
 # backup torrc

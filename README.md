@@ -1,7 +1,10 @@
-# AnonGT - Redirect All Traffic Through Tor Network v1.1
+# AnonGT - Anonymous Ghost
+
+###### Redirect All Traffic Through Tor Network v1.1
+
 ___
 
-![AnonGT](anongt.png "AnonGT")
+![AnonGT](/home/anonymous/Desktop/anongt.png "AnonGT")
 
 ## Description
 
@@ -71,7 +74,7 @@ ___
 ## Uninstall
 
 ___
-> ### sudo rm -r /usr/share/anongt /usr/bin/anongt /var/lib/anongt
+> ### rm -r /usr/share/anongt /usr/bin/anongt /var/lib/anongt
 
 ## Support Us To Continue AnonGT Project!
 

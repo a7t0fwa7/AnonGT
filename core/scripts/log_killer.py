@@ -9,5 +9,5 @@ def log_killer():
         "/var/log/yum.log", "/var/log/system.log", "/var/log/DiagnosticMessages", "~/.zsh_history", "~/.bash_history")
     for log in log_list:
         if path.isfile(log) == True or path.isdir(log) == True:
-            exec_command(f"shred -vfzu {log} &> /dev/null")
+            exec_command(f"shred -vfzu {log} > /dev/null")
     msg("cleared logs")

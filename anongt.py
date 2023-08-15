@@ -29,8 +29,6 @@ def anongt():
     check_root()
 
     cmd = listToString(sys.argv[1:])
-    # if len(cmd) == 0:
-    #     banner()
     if cmd == "start":
         clear()
         anonmode_start()
@@ -40,6 +38,10 @@ def anongt():
     elif cmd == "status":
         clear()
         anonmode_status()
+    elif cmd == "myip":
+        clear()
+        print(red(logo))
+        get_ip()
     elif cmd == "chngid":
         clear()
         change_id()
