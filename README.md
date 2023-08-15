@@ -74,7 +74,7 @@ ___
 ## Uninstall
 
 ___
-> ### rm -r /usr/share/anongt /usr/bin/anongt /var/lib/anongt
+> ### sudo rm -r /usr/share/anongt /usr/bin/anongt /var/lib/anongt
 
 ## Support Us To Continue AnonGT Project!
 
