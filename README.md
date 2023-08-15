@@ -4,7 +4,7 @@
 
 ___
 
-![AnonGT](/home/anonymous/Desktop/anongt.png "AnonGT")
+![AnonGT](anongt.png "AnonGT")
 
 ## Description
 
