@@ -8,7 +8,7 @@ fi
 echo "AnonGT Installer";
 
 sudo apt update;
-sudo apt install -y tor iptables bleachbit nyx xterm;
+sudo apt install -y tor iptables bleachbit nyx xterm python3 python3-pip;
 sudo mv ../AnonGT /usr/share/anongt;
 sudo touch anongt /usr/bin;
 sudo echo 'python3 /usr/share/anongt/anongt.py $1' > /usr/bin/anongt;
