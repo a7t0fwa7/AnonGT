@@ -15,6 +15,6 @@ sudo echo 'python3 /usr/share/anongt/anongt.py $1' > /usr/bin/anongt;
 sudo chmod +x /usr/share/anongt/anongt.py;
 sudo chmod +x /usr/bin/anongt;
 
-sudo pip3 install netifaces;
+sudo pip3 install netifaces termcolor;
 
 exit;
