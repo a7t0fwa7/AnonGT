@@ -22,6 +22,11 @@ ___
 
 ###### Please always check for updates
 
+## Watch Video!
+___
+
+![AnonGT](https://www.youtube.com/watch?v=MBKklMeE_uE&t=74s "AnonGT")
+
 ## AnonGT Install
 
 ___
