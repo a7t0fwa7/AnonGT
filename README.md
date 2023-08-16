@@ -25,9 +25,7 @@ ___
 ## Watch Video!
 ___
 
-[![AnonGT]          
-(thumbnail.png)] 
-(https://www.youtube.com/watch?v=MBKklMeE_uE&t "AnonGT") 
+[<img src="thumbnail.png" width="50%">](https://www.youtube.com/watch?v=MBKklMeE_uE&t "AnonGT")
 
 ## AnonGT Install
 
